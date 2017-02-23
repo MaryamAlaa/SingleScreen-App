@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCE4EC"
+    tools:context="com.example.youssefalaa.singlescreenapp.MainActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/unnamed"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Wedding Planner !"
+        android:fontFamily="cursive"
+        android:textSize="49sp"
+
+        />
+    <Button
+        android:id="@+id/Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="description"
+        android:textSize="30sp"
+        android:fontFamily="casual"
+        android:background="#FCE4EC"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/image"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:id="@+id/Text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About us"
+        android:textSize="30sp"
+        android:fontFamily="casual"
+        android:background="#FCE4EC"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/Text"
+        />
+    <Button
+        android:id="@+id/Text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact us"
+        android:textSize="30sp"
+        android:fontFamily="casual"
+        android:background="#FCE4EC"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/Text1"
+        />
+
+
+</RelativeLayout>
